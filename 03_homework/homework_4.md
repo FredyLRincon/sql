@@ -43,3 +43,5 @@ You can either display all rows in the customer_purchases table, with the counte
 1. Using a UNION, write a query that displays the market dates with the highest and lowest total sales.
 
 **HINT**: There are a possibly a few ways to do this query, but if you're struggling, try the following: 1) Create a CTE/Temp Table to find sales values grouped dates; 2) Create another CTE/Temp table with a rank windowed function on the previous query to create "best day" and "worst day"; 3) Query the second temp table twice, once for the best day, once for the worst day, with a UNION binding them. 
+
+[Homework_4.sql](homework_4.sql)

@@ -33,5 +33,6 @@ Then, using `UPDATE`, change the current_quantity equal to the **last** `quantit
 
 **HINT**: This one is pretty hard. First, determine how to get the "last" quantity per product. Second, coalesce null values to 0 (if you don't have null values, figure out how to rearrange your query so you do.) Third, `SET current_quantity = (...your select statement...)`, remembering that WHERE can only accommodate one column. Finally, make sure you have a WHERE statement to update the right row, you'll need to use `product_units.product_id` to refer to the correct row within the product_units table. When you have all of these components, you can run the update statement.
 
+[Homework_5.sql](homework_5.sql)
 
 
