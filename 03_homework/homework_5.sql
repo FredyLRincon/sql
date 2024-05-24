@@ -6,7 +6,7 @@ Show this by vendor_name and product name, rather than using the IDs.
 HINT: Be sure you select only relevant columns and rows. 
 Remember, CROSS JOIN will explode your table rows, so CROSS JOIN should likely be a subquery. 
 Think a bit about the row counts: how many distinct vendors, product names are there (x)?
-How many customers are there (y). 
+How many customers are there (y).      
 Before your final group by you should have the product of those two queries (x*y).  */
 
 SELECT 
