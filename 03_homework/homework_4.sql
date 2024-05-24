@@ -1,7 +1,7 @@
 -- COALESCE
 /* 1. Our favourite manager wants a detailed long list of products, but is afraid of tables! 
 We tell them, no problem! We can produce a list with all of the appropriate details. 
-
+ 
 Using the following syntax you create our super cool and not at all needy manager a list:
 
 SELECT 
